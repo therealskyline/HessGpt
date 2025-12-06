@@ -1,0 +1,8 @@
+transformers
+torch
+datasets
+transformers
+fastapi
+flask
+uvicorn
+flask_cors
