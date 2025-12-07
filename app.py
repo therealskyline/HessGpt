@@ -53,9 +53,9 @@ MODELS_CONFIG = {
         'path': './Models/20M/Hessgpt_Final_SFT.pt',
         'config': {
             'vocab_size': 50257,
-            'embed_dim': 384,
-            'num_heads': 6,
-            'num_layers': 6,
+            'embed_dim': 256,
+            'num_heads': 8,
+            'num_layers': 8,
             'max_seq_len': 1024,
             'dropout': 0.05,
         },
@@ -367,4 +367,5 @@ if __name__ == '__main__':
         port=5000,
         debug=False,
         threaded=True
+
     )
