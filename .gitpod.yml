@@ -1,0 +1,9 @@
+tasks:
+  - init: |
+      git lfs install --local
+      git lfs fetch --all
+      git lfs checkout
+
+vscode:
+  extensions:
+    - eamodio.gitlens
